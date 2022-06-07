@@ -468,32 +468,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.m-12 {
-  margin: 3rem;
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-.h-32 {
-  height: 8rem;
+@media (min-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
 }
 
-.w-32 {
-  width: 8rem;
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 
-.bg-red-800 {
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.bg-gray-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
-}
-
-.font-roboto {
-  font-family: Roboto;
-}
-
-.font-poppins {
-  font-family: Poppins;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
