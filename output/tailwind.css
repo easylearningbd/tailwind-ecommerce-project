@@ -485,6 +485,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
+.font-roboto {
+  font-family: Roboto;
+}
+
+.font-poppins {
+  font-family: Poppins;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));

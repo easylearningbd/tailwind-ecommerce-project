@@ -1,7 +1,12 @@
 module.exports = {
   content: ["./*html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        'poppins' : ['Poppins'],
+        'roboto' : ['Roboto'],
+      }
+    },
   },
   plugins: [],
 }
