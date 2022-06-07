@@ -13,6 +13,9 @@ module.exports = {
       padding : '1rem'  // 16px
     },
     extend: {
+      colors : {
+        primary : '#FD3D57',
+      },
       fontFamily : {
         'poppins' : ['Poppins'],
         'roboto' : ['Roboto'],
