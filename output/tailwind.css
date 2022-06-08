@@ -536,6 +536,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .block {
   display: block;
 }
@@ -568,6 +572,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.25rem;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -588,6 +596,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .rounded-full {
@@ -685,6 +703,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -721,6 +744,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -742,6 +770,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(253 61 87 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:ring-primary:focus {
