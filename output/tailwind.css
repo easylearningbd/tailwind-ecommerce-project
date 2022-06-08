@@ -532,6 +532,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -0.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -562,6 +566,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-5 {
   width: 1.25rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .items-center {
@@ -624,6 +632,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(253 61 87 / var(--tw-bg-opacity));
 }
 
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -680,6 +693,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .leading-3 {
   line-height: .75rem;
 }
@@ -733,6 +750,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 992px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
