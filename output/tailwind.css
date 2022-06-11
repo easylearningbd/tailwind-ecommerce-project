@@ -559,8 +559,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
 .z-50 {
   z-index: 50;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .mx-auto {
@@ -640,6 +652,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.25rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -658,6 +674,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .flex-grow {
@@ -882,6 +902,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 0.4;
 }
 
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -966,6 +990,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .text-center {
