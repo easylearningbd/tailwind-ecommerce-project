@@ -592,6 +592,14 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
+body {
+  font-family: Poppins;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -667,6 +675,13 @@ select {
   .container {
     max-width: 1200px;
   }
+}
+
+.size-selector input:checked + label {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 61 87 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .invisible {
@@ -846,6 +861,10 @@ select {
   height: 2.25rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -868,6 +887,10 @@ select {
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .flex-grow {
