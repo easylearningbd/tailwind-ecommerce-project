@@ -783,6 +783,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: span 1 / span 1;
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -899,6 +903,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-44 {
+  width: 11rem;
 }
 
 .flex-grow {
