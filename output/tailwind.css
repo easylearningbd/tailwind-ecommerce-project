@@ -921,6 +921,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -967,6 +971,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1392,6 +1400,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.file\:w-full::-webkit-file-upload-button {
+  width: 100%;
+}
+
+.file\:w-full::file-selector-button {
+  width: 100%;
 }
 
 .hover\:border-slate-400:hover {
