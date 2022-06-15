@@ -982,8 +982,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 50%;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .max-w-lg {
   max-width: 32rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .flex-grow {
@@ -1015,6 +1023,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .items-start {
@@ -1293,6 +1305,15 @@ h1, h2, h3, h4, h5, h6 {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .py-4 {
@@ -1700,6 +1721,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
   }
 
   .lg\:hidden {
