@@ -830,6 +830,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: span 3 / span 3;
 }
 
+.col-span-9 {
+  grid-column: span 9 / span 9;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1438,6 +1442,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 2rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1736,6 +1744,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .lg\:static {
     position: static;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:block {
