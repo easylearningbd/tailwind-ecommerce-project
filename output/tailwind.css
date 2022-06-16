@@ -1034,6 +1034,10 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -1334,6 +1338,10 @@ h1, h2, h3, h4, h5, h6 {
   --tw-bg-opacity: 0.4;
 }
 
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1604,6 +1612,11 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .line-through {
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
@@ -1745,6 +1758,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:ml-0 {
+    margin-left: 0px;
   }
 
   .md\:grid {
