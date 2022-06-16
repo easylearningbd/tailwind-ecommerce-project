@@ -844,6 +844,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 0.75rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -900,6 +905,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.5rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -942,6 +951,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .w-32 {
@@ -1000,6 +1013,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .w-28 {
   width: 7rem;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .max-w-lg {
@@ -1814,6 +1831,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .lg\:col-span-8 {
     grid-column: span 8 / span 8;
+  }
+
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
   }
 
   .lg\:mt-0 {
