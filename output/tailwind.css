@@ -998,6 +998,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 3.5rem;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
@@ -1047,6 +1051,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -1743,6 +1751,10 @@ h1, h2, h3, h4, h5, h6 {
     display: grid;
   }
 
+  .md\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1751,8 +1763,20 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
   }
 
   .md\:text-5xl {
@@ -1884,5 +1908,10 @@ h1, h2, h3, h4, h5, h6 {
   .xl\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
