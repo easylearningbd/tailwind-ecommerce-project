@@ -1812,6 +1812,10 @@ h1, h2, h3, h4, h5, h6 {
     position: static;
   }
 
+  .lg\:col-span-8 {
+    grid-column: span 8 / span 8;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
