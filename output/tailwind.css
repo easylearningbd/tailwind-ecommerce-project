@@ -1023,6 +1023,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 7rem;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
