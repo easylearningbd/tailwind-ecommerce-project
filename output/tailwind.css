@@ -1444,6 +1444,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1.75rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pl-12 {
   padding-left: 3rem;
 }
@@ -1933,6 +1938,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .xl\:col-span-9 {
     grid-column: span 9 / span 9;
+  }
+
+  .xl\:col-span-3 {
+    grid-column: span 3 / span 3;
   }
 
   .xl\:mt-0 {
